@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "test2.html",
+    "href": "test2.html",
+    "title": "“商业协会数据志愿者偏倚检验——以上海市高血压样本为例”",
+    "section": "",
+    "text": "begin hidden\n\nfind all the matched firms in the two datasets (gene * firm * t)\n\nfilter gxy, shanghai, but all channels\nmatch the generic\nmatch firm names\nmatch date\n\ncompare the firm composition and sales within each category\n\nend hidden"
+  },
+  {
+    "objectID": "test2.html#平均价格对比与平均销量对比",
+    "href": "test2.html#平均价格对比与平均销量对比",
+    "title": "“商业协会数据志愿者偏倚检验——以上海市高血压样本为例”",
+    "section": "平均价格对比与平均销量对比",
+    "text": "平均价格对比与平均销量对比\n首先考察商业协会样本内产品和样本外产品平均价格的差异。首先，本节认定商业协会样本内产品为上海市医院终端高血压市场所有企业中，出现在商业协会样本的企业的所有产品（见章节1）。其次，在每个通用名下，分别商业协会样本内产品和样本外产品的加权平均日费（DDC）。\n图 2 展示了商业协会样本内产品和样本外产品的平均DDC差异。可见：1. 在大部分通用名下，商业协会样本内产品的平均日费较低。2. 商业协会样本内产品在时间上有下降趋势； 3.商业协会样本外产品在时间上有上升趋势。该图表明，对于价格指标，商业协会样本存在志愿者偏倚。若用商业协会样本价格推断省内价格在时间上的变化，则可能低估价格在时间上的变化。但是，该结果不涉及同一时间产品价格的跨省差异，因此暂不会影响价格离散结果的稳健性。\n\nbegin hidden\ncompare the distribution of shanghai firms presented and not presented in the CHJL - list all the shanghai firms, and indicate if they are CHJL-presented or CHJL-not-presented - calulate the weighted average of DDC and DDDS in each yearmonth for firm’s product of CHJL-presented or CHJL-not-presented under each generic - plot the distributin of DDC and DDDS of CHJL-presented or CHJL-not-presented under each generic - calulate the total of DDDs in each yearmonth for firm’s product of CHJL-presented or CHJL-not-presented under each generic - note: (delete the negative DDDS or DDC record)\nend hidden\n\n\n\n\n\n图 2: 商业协会样本内（外）产品平均日费(DDC)对比\n\n\n                            \n                                            \n\n\n\n\n\n\n\n\n\n\n注记\n\n\n\n图2展示了上海市医院终端的所有高血压药品中，商业协会样本内（外）产品的平均DDC。商业协会样本内产品定义为商业协会样本内企业的产品；商业协会样本内企业定义为上海市医院终端高血压药市场的所有企业中，在商业协会样本内的企业；商业协会样本外企业定义为上海市医院终端高血压药市场的所有企业中，不在商业协会样本内的企业。\n\n\n接着，考察商业协会样本内产品和样本外产品平均用量的差异。为此，计算每个通用名下，样本内和样本外产品的平均用量（DDDs）。 图 3 展示了商业协会样本内产品和样本外产品平均DDDs的差异。可见：1. 在大部分通用名下，商业协会样本内产品的平均用量较高。2. 商业协会样本内（外）产品在时间上均保持稳定。该图表明对于平均用量指标，商业协会样本存在志愿者偏倚。但是，由于研究关注指标为药品总用量而非单产品平均用量，该结果暂不会影响结果的稳健性。\n\n\n\n\n图 3: 商业协会样本内（外）产品平均用量(DDDs)对比\n\n\n                            \n                                            \n\n\n\n\n\n\n\n\n\n\n注记\n\n\n\n图3展示了上海市医院终端的所有高血压药品中，商业协会样本内（外）产品的平均DDDs。商业协会样本内产品定义为商业协会样本内企业的产品；商业协会样本内企业定义为上海市医院终端高血压药市场的所有企业中，在商业协会样本内的企业；商业协会样本外企业定义为上海市医院终端高血压药市场的所有企业中，不在商业协会样本内的企业。"
+  },
+  {
+    "objectID": "test2.html#总销量对比",
+    "href": "test2.html#总销量对比",
+    "title": "“商业协会数据志愿者偏倚检验——以上海市高血压样本为例”",
+    "section": "总销量对比",
+    "text": "总销量对比\n该节比较上海市医院终端高血压市场所有产品中，商业协会样本内产品和样本外产品在总销量的差异。药品总销量为研究关注的指标之一。考察样本内外总销量的差异可以确定：1.商业协会样本内企业占市场总销量的比例是否足够；2. 商业协会样本内企业与样本外企业总销量时间趋势是否相同。若满足以上其中一点，则可以认为在总销量指标上商业协会样本具有代表性。\n为此，计算每个通用名下，商业样本内产品的DDDs总和与样本外产品的DDDs总和。图4展示了该结果。可见：1. 在大部分通用名下，商业协会样本内产品总用量均显著高于样本外产品总用量； 2.商业协会样本内产品总用量在时间上有上升趋势。图5进一步展示每个通用名下，样本内产品DDDs在所有产品中的比例。可见，在多数通用名下，商业协会样本内产品的用量占比均较高。图4和图5共同表明，对于总用量指标，商业协会的数据具有好的代表性。\n\n\n\n\n图 4: 商业协会样本内（外）产品总用量(DDDs)对比\n\n\n                            \n                                            \n\n\n\n\n \n\n\n\n\n图 5: 商业协会样本内产品总用量(DDDs)占比趋势\n\n\n                            \n                                            \n\n\n\n\n\n\n\n\n\n\n注记\n\n\n\n图4展示了上海市医院终端的所有高血压药品中，商业协会样本内（外）产品的总DDDs。图5展示了上海市医院终端的所有高血压药品中，商业协会样本内产品总DDDs的占比。商业协会样本内产品定义为商业协会样本内企业的产品；商业协会样本内企业定义为上海市医院终端高血压药的所有企业中，在商业协会样本内的企业；商业协会样本外企业定义为上海市医院终端高血压药的所有企业中，不在商业协会样本内的企业。\n\n\n\nbegin hidden"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "script",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
