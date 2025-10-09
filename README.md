@@ -11,7 +11,11 @@ There are two main parts to the replication
 
 All data sources are publicly available. See below for the details.
 
-1.  Data on trade of intermediates and machinery from COMTRADE \[appears in comtrade_1990_2015, comtrade_1996_2015, comtrade_robots_1996_2015\] These data can be downloaded from <https://comtrade.un.org/>
+1.  Data on corporate board’s female representation across EU countries from European Institute for Gender Equality: this data is stored in *wmidm_bus_bus\_\_wmid_comp_compbm.xlsx* and can be downloaded from <https://eige.europa.eu/gender-statistics/dgs/indicator/eustrat_ges_lead_bus__wmid_comp__ind53_top/datatable>.
+2.  Labor outcome variables across EU countries from the EU Labor Force Survey (“LFS”):  (1) full-time employment data is stored in \*lfsq_epgais.xlsx\* and can be downloaded from \<<https://ec.europa.eu/eurostat/databrowser/view/LFSQ_EPGAIS__custom_6036320/default/table>\>. (2) working hours data is stored in *lfsq_ewhuis.xlsx* and can be downloaded from \<<https://ec.europa.eu/eurostat/databrowser/view/lfsq_ewhuis/default/table>\>.
+3.  Announcement dates of the board gender policies: this data is stored \*policy.dta\* and is hand-collected from each EU country’s official website, with additional guidance from Seierstad et al. (2017)[^1].
+
+[^1]: Seierstad, C., et al. (2017). Title of the paper. Journal Name, Volume(Issue), pages.
 
 ## Folder content
 
@@ -53,7 +57,6 @@ This replication package is organized according to the following structure:
     └── Table 3/                         
         ├── data_boardgendereige.csv, table3.csv Input and output data.
         └── event_time_att.m + functions/   MATLAB scripts for estimation.
-
 ```
 
 ## Replication instructions
@@ -62,18 +65,17 @@ To replicate the cleaned data , one has to navigate to the corresponding folder 
 
 Tables and figures can be immediately replicated by navigating to the corresponding folder and running the relevant code as below:
 
-| Figure/Table # | Software                  | Relevant code                                                     |
-|----------------|---------------------------|-------------------------------------------------------------------|
-| Figure 1       | MATLAB R2018b             | replication_files/Figure 1/event_time_att.m                     |
-| Figure 2       | MATLAB R2018b             | replication_files/Figure 2/event_time_att_comparison.m          |
-| Figure 3       | MATLAB R2018b             | replication_files/Figure 3/event_time_att_comparison_other.m    |
-| Figure 4       | MATLAB R2018b             | replication_files/Figure 4/event_time_att_comparison_other.m    |
-| Figure 5       | MATLAB R2018b             | replication_files/Figure 5/event_time_att_comparison_other.m    |
-| Figure 6       | MATLAB R2018b             | replication_files/Figure 6/event_time_att_comparison_other.m    |
-| Figure A.1     | Stata 14.2                | replication_files/Figure A1/jasa graphA1.do                     |
-| Figure A.2[^*] | R 4.5.1 and MATLAB R2018b | replication_files/Figure A2/results_staggered_did.R <br> replication_files/Figure A2/results_staggered_synthetic_control.m |
-| Table 1        | Stata 14.2                | replication_files/Table 1/jasa table1.do                        |
-| Table 3        | MATLAB R2018b             | replication_files/Table 3/event_time_att.m                      |
+| Figure/Table \# | Software | Relevant code |
+|----------------|----------------|----------------------------------------|
+| Figure 1 | MATLAB R2018b | replication_files/Figure 1/event_time_att.m |
+| Figure 2 | MATLAB R2018b | replication_files/Figure 2/event_time_att_comparison.m |
+| Figure 3 | MATLAB R2018b | replication_files/Figure 3/event_time_att_comparison_other.m |
+| Figure 4 | MATLAB R2018b | replication_files/Figure 4/event_time_att_comparison_other.m |
+| Figure 5 | MATLAB R2018b | replication_files/Figure 5/event_time_att_comparison_other.m |
+| Figure 6 | MATLAB R2018b | replication_files/Figure 6/event_time_att_comparison_other.m |
+| Figure A.1 | Stata 14.2 | replication_files/Figure A1/jasa graphA1.do |
+| Figure A.2[^2] | R 4.5.1 and MATLAB R2018b | replication_files/Figure A2/results_staggered_did.R <br> replication_files/Figure A2/results_staggered_synthetic_control.m |
+| Table 1 | Stata 14.2 | replication_files/Table 1/jasa table1.do |
+| Table 3 | MATLAB R2018b | replication_files/Table 3/event_time_att.m |
 
-
-[^*]: To replicate Figure A.2, first run the R code *results_staggered_did.R* to produce results using the staggered DID method. Then, run the Matlab code *results_staggered_synthetic_control.m* to produce results using our method and perform the comparison.
+[^2]: To replicate Figure A.2, first run the R code *results_staggered_did.R* to produce results using the staggered DID method. Then, run the Matlab code *results_staggered_synthetic_control.m* to produce results using our method and perform the comparison.
