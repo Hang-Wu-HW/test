@@ -83,20 +83,20 @@ This replication package is organized according to the following structure:
 
 To replicate the cleaned data , one has to navigate to the corresponding folder and run the appropriate cleaning files by Stata 14.2.
 
-Tables and figures can be immediately replicated by navigating to the corresponding folder and running the relevant code as below:
+Tables and figures can be immediately replicated by navigating to the corresponding folder in *replication_files/* and running the relevant code as below:
 
 | Figure/Table \# | Software                  | Relevant code |
 |-----------------|---------------------------|----------------------------------------|
-| Figure 1        | MATLAB R2018b             | replication_files/Figure 1/event_time_att.m |
-| Figure 2        | MATLAB R2018b             | replication_files/Figure 2/event_time_att_comparison.m |
-| Figure 3        | MATLAB R2018b             | replication_files/Figure 3/event_time_att_comparison_other.m |
-| Figure 4        | MATLAB R2018b             | replication_files/Figure 4/event_time_att_comparison_other.m |
-| Figure 5        | MATLAB R2018b             | replication_files/Figure 5/event_time_att_comparison_other.m |
-| Figure 6        | MATLAB R2018b             | replication_files/Figure 6/event_time_att_comparison_other.m |
-| Figure A.1      | Stata 14.2                | replication_files/Figure A1/jasa graphA1.do |
-| Figure A.2[^1]  | R 4.5.1 and MATLAB R2018b | replication_files/Figure A2/results_staggered_did.R <br> replication_files/Figure A2/results_staggered_synthetic_control.m |
-| Table 1         | Stata 14.2                | replication_files/Table 1/jasa table1.do |
-| Table 3         | MATLAB R2018b             | replication_files/Table 3/event_time_att.m |
+| Figure 1        | MATLAB R2018b             | Figure 1/event_time_att.m |
+| Figure 2        | MATLAB R2018b             | Figure 2/event_time_att_comparison.m |
+| Figure 3        | MATLAB R2018b             | Figure 3/event_time_att_comparison_other.m |
+| Figure 4        | MATLAB R2018b             | Figure 4/event_time_att_comparison_other.m |
+| Figure 5        | MATLAB R2018b             | Figure 5/event_time_att_comparison_other.m |
+| Figure 6        | MATLAB R2018b             | Figure 6/event_time_att_comparison_other.m |
+| Figure A.1      | Stata 14.2                | Figure A1/jasa graphA1.do |
+| Figure A.2[^1]  | R 4.5.1 and MATLAB R2018b | Figure A2/results_staggered_did.R <br> Figure A2/results_staggered_synthetic_control.m |
+| Table 1         | Stata 14.2                | Table 1/jasa table1.do |
+| Table 3         | MATLAB R2018b             | Table 3/event_time_att.m |
 
 [^1]: To replicate Figure A.2, first run the R code *results_staggered_did.R* to produce results using the staggered DID method. Then, run the Matlab code *results_staggered_synthetic_control.m* to produce results using our method and perform the comparison.
 
