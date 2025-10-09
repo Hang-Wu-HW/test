@@ -37,7 +37,6 @@ This replication package is organized according to the following structure:
     |   |   |── jasa ft employment clean.do  Stata script for cleaning full-time employment data.
     |   |   |── jasa_ft.dta                 Cleaned Stata dataset.
     |   |   └── data_ft.csv                 Cleaned dataset stored as csv file.
-    |   |
     |   └── LFS work hours data/
     |       |── policy.dta                  Raw dataset of policy announcement data
     |       |── lfsq_ewhuis.xlsx            Raw dataset of working hours
@@ -61,17 +60,23 @@ This replication package is organized according to the following structure:
     │   ├── jasa_boardgendereige.dta        Board gender ratio as as input stata data file.
     │   └── figureA1.png                    Output plot for Figure A1.
     ├── Figure A2/                          
-    │   ├── FigureA2.png                    Output plot for Figure A.2.
     │   ├── results_staggered_did.R, results_staggered_did.csv R code and results for ATT estimation with staggered DID
     │   ├── results_staggered_synthetic_control.m MATLAB script for ATT estimation with our method
     │   ├── data_boardgendereige.csv        Board gender ratio as input dataset.
-    │   └── functions/                      Core MATLAB functions for our method (same as in ./replication_files/Figure 1/functions).
+    │   ├── functions/                      Core MATLAB functions for our method (same as ./replication_files/Figure 1/functions).
+    │   └── FigureA2.png                    Output plot for Figure A.2.
     ├── Table 1/                         
-    │   ├── jasa table1.do, jasa_*.dta      Stata scripts and data for Table 1.
+    │   ├── jasa_boardgendereige.dta        Data on Board gender ratio.
+    │   ├── jasa_ft.dta                     Data on full-time employment rate
+    │   ├── jasa_hr.dta                     Data on working hours
+    │   ├── jasa table1.do                  Stata scripts for Table 1.
     │   ├── *.tex, *.txt                    Exported LaTeX and text tables.
     └── Table 3/                         
-        ├── data_boardgendereige.csv, table3.csv Input and output data.
-        └── event_time_att.m + functions/   MATLAB scripts for estimation.
+        ├── data_boardgendereige.csv        Board gender ratio as input data
+        ├── event_time_att.m                MATLAB scripts for estimation.
+        ├── functions/                      Core MATLAB functions for our method (same as./replication_files/Figure 1/functions).
+        └── table3.csv                      Output data for Table 3
+
 ```
 
 ## Replication instructions
@@ -80,18 +85,18 @@ To replicate the cleaned data , one has to navigate to the corresponding folder 
 
 Tables and figures can be immediately replicated by navigating to the corresponding folder and running the relevant code as below:
 
-| Figure/Table \# | Software | Relevant code |
-|----------------|----------------|----------------------------------------|
-| Figure 1 | MATLAB R2018b | replication_files/Figure 1/event_time_att.m |
-| Figure 2 | MATLAB R2018b | replication_files/Figure 2/event_time_att_comparison.m |
-| Figure 3 | MATLAB R2018b | replication_files/Figure 3/event_time_att_comparison_other.m |
-| Figure 4 | MATLAB R2018b | replication_files/Figure 4/event_time_att_comparison_other.m |
-| Figure 5 | MATLAB R2018b | replication_files/Figure 5/event_time_att_comparison_other.m |
-| Figure 6 | MATLAB R2018b | replication_files/Figure 6/event_time_att_comparison_other.m |
-| Figure A.1 | Stata 14.2 | replication_files/Figure A1/jasa graphA1.do |
-| Figure A.2[^1] | R 4.5.1 and MATLAB R2018b | replication_files/Figure A2/results_staggered_did.R <br> replication_files/Figure A2/results_staggered_synthetic_control.m |
-| Table 1 | Stata 14.2 | replication_files/Table 1/jasa table1.do |
-| Table 3 | MATLAB R2018b | replication_files/Table 3/event_time_att.m |
+| Figure/Table \# | Software                  | Relevant code |
+|-----------------|---------------------------|----------------------------------------|
+| Figure 1        | MATLAB R2018b             | replication_files/Figure 1/event_time_att.m |
+| Figure 2        | MATLAB R2018b             | replication_files/Figure 2/event_time_att_comparison.m |
+| Figure 3        | MATLAB R2018b             | replication_files/Figure 3/event_time_att_comparison_other.m |
+| Figure 4        | MATLAB R2018b             | replication_files/Figure 4/event_time_att_comparison_other.m |
+| Figure 5        | MATLAB R2018b             | replication_files/Figure 5/event_time_att_comparison_other.m |
+| Figure 6        | MATLAB R2018b             | replication_files/Figure 6/event_time_att_comparison_other.m |
+| Figure A.1      | Stata 14.2                | replication_files/Figure A1/jasa graphA1.do |
+| Figure A.2[^1]  | R 4.5.1 and MATLAB R2018b | replication_files/Figure A2/results_staggered_did.R <br> replication_files/Figure A2/results_staggered_synthetic_control.m |
+| Table 1         | Stata 14.2                | replication_files/Table 1/jasa table1.do |
+| Table 3         | MATLAB R2018b             | replication_files/Table 3/event_time_att.m |
 
 [^1]: To replicate Figure A.2, first run the R code *results_staggered_did.R* to produce results using the staggered DID method. Then, run the Matlab code *results_staggered_synthetic_control.m* to produce results using our method and perform the comparison.
 
