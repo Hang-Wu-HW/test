@@ -81,9 +81,9 @@ This replication package is organized according to the following structure:
 
 ## Replication instructions
 
-To replicate the cleaned data , one has to navigate to the corresponding folder and run the appropriate cleaning files by Stata 14.2.
+To replicate the cleaned data , one has to navigate to the corresponding folder and run the appropriate cleaning files by Stata 14.2. Relevant files are shown above
 
-Tables and figures can be immediately replicated by navigating to the corresponding folder in *replication_files/* and running the relevant code as below:
+Tables and figures can be immediately replicated by navigating to the corresponding folder in *replication_files/* and running the relevant code as shown below:
 
 | Figure/Table \# | Software                  | Relevant code |
 |-----------------|---------------------------|----------------------------------------|
