@@ -83,7 +83,7 @@ This replication package is organized according to the following structure:
 
 To replicate the cleaned data , one can navigate to the  *replication_files/data cleaning/* folder and run the appropriate cleaning files (see above). The origianl process was conducted using Stata 14.2. 
 
-Tables and figures can be immediately replicated by navigating to the corresponding folder in *replication_files/* and running the relevant code as shown below:
+Tables and figures can be immediately produced by navigating to the corresponding folder in *replication_files/* and running the relevant code as shown below:
 
 | Figure/Table \# | Original study software   | Relevant code |
 |-----------------|---------------------------|----------------------------------------|
@@ -98,7 +98,7 @@ Tables and figures can be immediately replicated by navigating to the correspond
 | Table 1         | Stata 14.2                | Table 1/jasa table1.do |
 | Table 3         | MATLAB R2018b             | Table 3/event_time_att.m |
 
-[^1]: To replicate Figure A.2, first run the R code *results_staggered_did.R* to produce results using the staggered DID method. Then, run the Matlab code *results_staggered_synthetic_control.m* to produce results using our method and perform the comparison.
+[^1]: To produce Figure A.2, first run the R code *results_staggered_did.R* to produce results using the staggered DID method. Then, run the Matlab code *results_staggered_synthetic_control.m* to produce results using our method and perform the comparison.
 
 ## Data Reference
 
