@@ -19,40 +19,40 @@ This replication package is organized according to the following structure:
 
 ```         
 .
-├── README.md                           The file you are reading right now.
+├── README.md                               The file you are reading right now.
 └── replication_files/
     ├── data cleaning/                  
-    │   ├── EIGE board gender data/    Raw and cleaned gender quota data.
+    │   ├── EIGE board gender data/         Raw and cleaned gender quota data.
     │   ├── LFS full time employment data/ Labor Force Survey full-time data.
-    │   └── LFS work hours data/       LFS working hours data.
-    ├── Figure 1/                       scripts and datasets uesed to create Figure 1
-    │   ├── data_boardgendereige.csv    Input data for Figure 1.
-    │   ├── event_time_att.m            MATLAB script for event-time ATT estimation with our method
-    │   ├── functions/                  Core MATLAB functions for our synthetic control method (SSC).
+    │   └── LFS work hours data/            LFS working hours data.
+    ├── Figure 1/                           scripts and datasets uesed to create Figure 1
+    │   ├── data_boardgendereige.csv        Input data for Figure 1.
+    │   ├── event_time_att.m                MATLAB script for event-time ATT estimation with our method
+    │   ├── functions/                      Core MATLAB functions for our synthetic control method (SSC).
     │   │   ├── synthetic_control.m         Classic synthetic control weights algorithms for one treated unit.
     │   │   ├── synthetic_control_batch.m   Our synthetic control weights algorithms for multiple treated unit.
     │   │   ├── ssc.m                       Estimation
     │   │   ├── ssc_inference.m             Inference
     │   │   ├── att_event_ci.m              ATT confidence intervals.
     │   │   ├── vline.m, vline_license.txt  Plot helper and license.
-    │   ├── graph1a.png, graph1b.png   Output plots for Figure 1.
-    ├── Figure 2–6/                     Same structure as Figure 1, using different datasets and scripts.
-    ├── Figure A1/                       scripts and datasets uesed to create Figure A.1
-    │   ├── jasa graphA1.do             Stata script for Figure A1.
-    │   ├── jasa_boardgendereige.dta    Input stata data file.
-    │   └── figureA1.png                 Output plot for Figure A1.
-    ├── Figure A2/                       scripts and datasets uesed to create Figure A.2
-    │   ├── FigureA2.png                 Output plot for Figure A.2.
+    │   ├── graph1a.png, graph1b.png        Output plots for Figure 1.
+    ├── Figure 2–6/                         Same structure as Figure 1, using different datasets and scripts.
+    ├── Figure A1/                          Scripts and datasets uesed to create Figure A.1
+    │   ├── jasa graphA1.do                 Stata script for Figure A1.
+    │   ├── jasa_boardgendereige.dta        Input stata data file.
+    │   └── figureA1.png                    Output plot for Figure A1.
+    ├── Figure A2/                          Scripts and datasets uesed to create Figure A.2
+    │   ├── FigureA2.png                    Output plot for Figure A.2.
     │   ├── results_staggered_did.R, results_staggered_did.csv R code and results for ATT estimation with staggered DID
     │   ├── results_staggered_synthetic_control.m MATLAB script for ATT estimation with our method
-    │   ├── data_boardgendereige.csv     Input dataset.
-    │   └── functions/                   Core MATLAB functions for our method (same as in ./replication_files/Figure 1/functions).
+    │   ├── data_boardgendereige.csv        Input dataset.
+    │   └── functions/                      Core MATLAB functions for our method (same as in ./replication_files/Figure 1/functions).
     ├── Table 1/                         
-    │   ├── jasa table1.do, jasa_*.dta  Stata scripts and data for Table 1.
-    │   ├── *.tex, *.txt                 Exported LaTeX and text tables.
+    │   ├── jasa table1.do, jasa_*.dta      Stata scripts and data for Table 1.
+    │   ├── *.tex, *.txt                    Exported LaTeX and text tables.
     └── Table 3/                         
         ├── data_boardgendereige.csv, table3.csv Input and output data.
-        └── event_time_att.m + functions/       MATLAB scripts for estimation.
+        └── event_time_att.m + functions/   MATLAB scripts for estimation.
 
 ```
 
