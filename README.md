@@ -9,7 +9,7 @@ There are two main parts to the replication:
 
 ## Date availability
 
-All data sources are publicly available. See below for the details.
+All data sources are publicly available. Data used are listed below:
 
 1.  Data on corporate board’s female representation across EU countries from European Institute for Gender Equality: this data is stored in *wmidm_bus_bus\_\_wmid_comp_compbm.xlsx* and can be downloaded from <https://eige.europa.eu/gender-statistics/dgs/indicator/eustrat_ges_lead_bus__wmid_comp__ind53_top/datatable>.
 2.  Labor outcome variables across EU countries from the EU Labor Force Survey (“LFS”):  (1) full-time employment data is stored in \*lfsq_epgais.xlsx\* and can be downloaded from <https://ec.europa.eu/eurostat/databrowser/view/LFSQ_EPGAIS__custom_6036320/default/table>. (2) working hours data is stored in *lfsq_ewhuis.xlsx* and can be downloaded from <https://ec.europa.eu/eurostat/databrowser/view/lfsq_ewhuis/default/table>.
@@ -81,11 +81,11 @@ This replication package is organized according to the following structure:
 
 ## Replication instructions
 
-To replicate the cleaned data , one has to navigate to the corresponding folder and run the appropriate cleaning files by Stata 14.2. Relevant files are shown above
+To replicate the cleaned data , one can navigate to the  *replication_files/data cleaning/* folder and run the appropriate cleaning files (see above). The origianl process was conducted using Stata 14.2. 
 
 Tables and figures can be immediately replicated by navigating to the corresponding folder in *replication_files/* and running the relevant code as shown below:
 
-| Figure/Table \# | Software                  | Relevant code |
+| Figure/Table \# | Original study software   | Relevant code |
 |-----------------|---------------------------|----------------------------------------|
 | Figure 1        | MATLAB R2018b             | Figure 1/event_time_att.m |
 | Figure 2        | MATLAB R2018b             | Figure 2/event_time_att_comparison.m |
