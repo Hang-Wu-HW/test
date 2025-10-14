@@ -52,7 +52,7 @@ This replication package is organized according to the following structure:
     │   │   ├── ssc_inference.m             Inference
     │   │   ├── att_event_ci.m              ATT confidence intervals.
     │   │   └── vline.m, vline_license.txt, legendflex-pkg/  Plot helper and license.
-    │   └── graph1.png        Output plot for Figure 1.
+    │   └── graph1.png                      Output plot for Figure 1.
     ├── Figure 2/                           Same structure as Figure 1, using different datasets and scripts.
     └── Table 1/                         
         ├── data_boardgendereige.csv        Board female ratio as input data
