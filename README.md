@@ -71,7 +71,7 @@ The codes for the table and figures are run in MATLAB R2018b with the Optimizati
 
 To replicate the data cleaning, one can navigate to the *replication_files/data cleaning/* folder and run the appropriate cleaning files (see above).
 
-To replicate the Table and Figures, one can navigate to the corresponding folder in *replication_files/* and run the relevant codes as shown below:
+To replicate the table and figures, one can navigate to the corresponding folder in *replication_files/* and run the relevant codes as shown below:
 
 | Figure/Table \# | Relevant code                              |
 |-----------------|--------------------------------------------|
