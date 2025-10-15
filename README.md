@@ -32,10 +32,10 @@ This replication package is organized according to the following structure:
     ├── data cleaning/
     |   ├── EIGE board gender data/                
     |   |   ├── policy.dta                   Raw dataset of policy announcement data
-    |   |   ├── wmidm_bus_bus__wmid_comp_compbm.xlsx  Raw datasets for corporate board’s female ratio
+    |   |   ├── wmidm_bus_bus__wmid_comp_compbm.xlsx  Raw datasets of corporate board’s female ratio
     |   |   ├── jasa board gender clean.do   Stata script for cleaning board’s female ratio
     |   |   ├── jasa_boardgendereige.dta     Cleaned Stata dataset
-    |   |   └── data_boardgendereige.csv     Cleaned stata dataset stored as csv file
+    |   |   └── data_boardgendereige.csv     Cleaned dataset stored as csv file
     |   └── LFS full time employment data/
     |       ├── policy.dta                   Raw dataset of policy announcement data
     |       ├── lfsq_epgais.xlsx             Raw dataset of full-time employment
@@ -53,11 +53,11 @@ This replication package is organized according to the following structure:
     |   |   ├── att_event_ci.m               ATT confidence intervals
     |   |   └── vline.m, vline_license.txt, legendflex-pkg/  Plot helper and license
     |   └── graph1.png                       Output plot for Figure 1
-    ├── Figure 2/                            Same structure as Figure 1, using different datasets and scripts
+    ├── Figure 2/                            Same structure as Figure 1/, using different datasets and scripts
     └── Table 1/                         
         ├── data_boardgendereige.csv         Board's female ratio as input data
         ├── event_time_att.m                 MATLAB scripts for estimation of synthetic control weights (Table 1)
-        ├── functions/                       Core MATLAB functions for our method (same as./replication_files/Figure 1/functions)
+        ├── functions/                       Core MATLAB functions for our method (same as Figure 1/functions)
         └── table1.csv                       Output data for Table 1
 ```
 
