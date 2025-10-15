@@ -79,7 +79,7 @@ To replicate the table and figures, one can navigate to the corresponding folder
 | Figure 2        | Figure 2/labor_outcome.m                   |
 | Table 1         | Table 1/event_time_att.m                   |
 
-## Data Reference
+## Data reference
 
 Seierstad, C., P. Gabaldón, and H. Mensi-Klarbach (2017). *Gender diversity in the boardroom. Volume 1, The use of different quota regulations.* Springer.
 
